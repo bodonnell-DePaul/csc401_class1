@@ -108,3 +108,20 @@ numberList
 #Tuples can't add or remove any items after declaration
 myTuple = ('this is immutable', 'just like a string', 'hooray')
 
+x = x+1
+x+=1
+x-=1
+x*=1
+x/=1
+
+#importing all of the random module
+import random
+z = random.randint(0,1000)
+
+#m becomes shorthand for math module
+import math as m 
+m.sqrt(9.0)
+
+#importing just a single method
+from random import randrange
+randrange(10,1000000,100)
